@@ -1,0 +1,2 @@
+dataset_name,original_samples,original_channels,processed_windows,features_per_window,sampling_rate_hz,preprocessing_date
+EEG Mental State,2479,988,3,15808,128,2025-07-13 18:59:08

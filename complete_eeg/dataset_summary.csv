@@ -1,0 +1,2 @@
+dataset_name,original_samples,original_channels,processed_windows,total_features,time_domain_features,frequency_domain_features,wavelet_features,nonlinear_features,original_sampling_rate_hz,target_sampling_rate_hz,preprocessing_date,preprocessing_version
+Complete EEG Dataset,30999,19,59,570,285,285,0,0,256,128,2025-07-13 21:06:16,Enhanced v2.0 with Wavelet & Nonlinear Features

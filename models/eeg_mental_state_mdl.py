@@ -123,7 +123,7 @@ class AdvancedEEGStressDetector:
             eeg_files = glob.glob(os.path.join(self.data_dir, '*.csv'))
             
             if not eeg_files:
-                print(f"No CSV files found in {self.data_dir}. Generating comprehensive synthetic data...")
+                print(f"No CSV files found in {self.data_dir}. Generating synthetic data...")
                 return self.generate_comprehensive_synthetic_data()
             
             all_data = []

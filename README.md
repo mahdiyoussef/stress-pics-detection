@@ -1,10 +1,10 @@
 # Predicting Stress Peaks based on EEG Signals by Hybrid Approach of CNN-LSTM
 
-## 🧠 Overview
+## Overview
 
 This project implements an advanced deep learning approach for predicting stress peaks in EEG (Electroencephalogram) signals using a hybrid CNN-LSTM neural network architecture. The system combines Convolutional Neural Networks (CNN) for local feature extraction and Long Short-Term Memory (LSTM) networks for temporal pattern recognition to achieve high accuracy in stress detection.
 
-## 🎯 Objectives
+## Objectives
 
 - **Primary Goal**: Develop an accurate stress detection system using EEG brainwave data
 - **Secondary Goals**: 
@@ -13,7 +13,7 @@ This project implements an advanced deep learning approach for predicting stress
   - Achieve high accuracy in multi-class stress classification
   - Provide comprehensive evaluation metrics and visualizations
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Predicting-Stress-Pics-based-on-EEG-Signals-by-Hybrid-Approach-of-CNN-LSTM/
@@ -72,7 +72,7 @@ Predicting-Stress-Pics-based-on-EEG-Signals-by-Hybrid-Approach-of-CNN-LSTM/
     └── api_reference.md            # API reference
 ```
 
-## 📊 Dataset Information
+## Dataset Information
 
 The project utilizes multiple EEG datasets:
 
@@ -87,7 +87,7 @@ The project utilizes multiple EEG datasets:
 - **Duration**: Variable recording lengths
 - **Labels**: Stress levels (Low, Medium, High)
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Data Preparation
 ```python
@@ -157,7 +157,7 @@ print(f"Test Accuracy: {results['accuracy']:.4f}")
 print(f"F1-Score: {results['f1_score']:.4f}")
 ```
 
-## 🧮 Model Architecture
+## Model Architecture
 
 ### Hybrid CNN-LSTM Architecture
 
@@ -185,7 +185,7 @@ The model combines:
 - **Advanced Regularization**: Prevents overfitting with small datasets
 - **Data Augmentation**: Synthetic data generation for robust training
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 The model is evaluated using multiple metrics:
 
@@ -201,7 +201,7 @@ The model is evaluated using multiple metrics:
 - **F1-Score**: 0.83-0.90
 - **Training Time**: 30-60 minutes on GPU
 
-## 🔬 Key Features
+## Key Features
 
 ### Advanced Preprocessing:
 - **Bandpass Filtering**: Removes noise and artifacts
@@ -221,7 +221,7 @@ The model is evaluated using multiple metrics:
 - **Model Checkpointing**: Saves best models
 - **Cross-Validation**: Robust model evaluation
 
-## 📊 Results and Visualizations
+## Results and Visualizations
 
 The project generates comprehensive visualizations:
 
@@ -231,7 +231,7 @@ The project generates comprehensive visualizations:
 4. **Signal Visualizations**: Raw and processed EEG signals
 5. **ROC Curves**: Model performance analysis
 
-## 🛠️ Configuration
+## Configuration
 
 Key configuration parameters in `src/utils/config.py`:
 
@@ -255,7 +255,7 @@ PREPROCESSING_CONFIG = {
 }
 ```
 
-## 📚 Usage Examples
+## Usage Examples
 
 ### Example 1: Basic Training
 ```python
@@ -287,7 +287,7 @@ detector = CNNLSTMStressDetector.load_model('models/best_model.h5')
 metrics = detector.comprehensive_evaluation(X_test, y_test)
 ```
 
-## 🔬 Research Methodology
+## Research Methodology
 
 ### Signal Processing Pipeline:
 1. **Data Loading**: Import multiple EEG datasets
@@ -303,7 +303,7 @@ metrics = detector.comprehensive_evaluation(X_test, y_test)
 - **Cross-Validation**: 5-fold stratified cross-validation
 - **Independent Test Set**: Final evaluation on unseen data
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
@@ -326,7 +326,7 @@ flake8 src/
 black src/
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -336,13 +336,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Research**: Based on recent advances in EEG signal processing and deep learning
 - **Libraries**: TensorFlow, Scikit-learn, SciPy, and other open-source libraries
 
-## 📞 Contact
 
-- **Authors**: Youssef Mahdi, Hamza El Haiki
-- **Email**: [your-email@example.com]
-- **Project Link**: [https://github.com/yourusername/Predicting-Stress-Pics-based-on-EEG-Signals-by-Hybrid-Approach-of-CNN-LSTM]
-
-## 📖 Citation
+## Citation
 
 If you use this project in your research, please cite:
 
@@ -357,7 +352,7 @@ If you use this project in your research, please cite:
 }
 ```
 
-## 🔄 Version History
+## Version History
 
 - **v1.0.0** (2024-07-20): Initial release
 - **v1.1.0** (TBD): Enhanced model architecture
